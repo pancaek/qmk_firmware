@@ -23,10 +23,10 @@
 
 
 // Shift + volume down = previous track
-const key_override_t prev_track_override = ko_make_basic(MOD_MASK_SHIFT, KC_VOLD, KC_MPRV);
+const key_override_t prev_track_override = ko_make_basic(MOD_MASK_CTRL, KC_VOLD, KC_MPRV);
 
 // Shift + volume up = next track
-const key_override_t next_track_override = ko_make_basic(MOD_MASK_SHIFT, KC_VOLU, KC_MNXT);
+const key_override_t next_track_override = ko_make_basic(MOD_MASK_CTRL, KC_VOLU, KC_MNXT);
 
 const key_override_t ibus_override = ko_make_basic(MOD_MASK_CTRL, KC_APP, IBUS);
 
