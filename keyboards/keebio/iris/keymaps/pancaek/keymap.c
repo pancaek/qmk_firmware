@@ -22,10 +22,10 @@
 #define IBUS G(KC_DOT)
 
 
-// Shift + volume down = previous track
+// Control + volume down = previous track
 const key_override_t prev_track_override = ko_make_basic(MOD_MASK_CTRL, KC_VOLD, KC_MPRV);
 
-// Shift + volume up = next track
+// Control + volume up = next track
 const key_override_t next_track_override = ko_make_basic(MOD_MASK_CTRL, KC_VOLU, KC_MNXT);
 
 const key_override_t ibus_override = ko_make_basic(MOD_MASK_CTRL, KC_APP, IBUS);
@@ -63,7 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_DEL,  _______, _______, _______, _______, _______, _______,          KC_SALT, _______, _______, _______, _______, _______, _______,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    KC_RALT, _______, _______,                   KC_LSFT, KC_LCTL, KC_LALT
+                                    KC_RALT, _______, _______,                   KC_LALT, KC_LCTL, KC_LSFT
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
 
