@@ -2,7 +2,8 @@
 
 #        define HOLD_ON_OTHER_KEY_PRESS
 
-
+#        undef LOCKING_SUPPORT_ENABLE
+#        undef LOCKING_RESYNC_ENABLE
 #        define LAYER_STATE_8BIT
 
 #        undef ENABLE_RGB_MATRIX_ALPHAS_MODS
